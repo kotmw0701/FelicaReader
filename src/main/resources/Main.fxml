@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.github.kotmw0701.Controller">
+    <children>
+        <Label fx:id="student_id" layoutX="14.0" layoutY="116.0" prefHeight="60.0" prefWidth="373.0" style="-fx-border-color: #000;" text="学籍番号">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+      <Label fx:id="idm" layoutX="14.0" layoutY="27.0" prefHeight="60.0" prefWidth="373.0" style="-fx-border-color: #000;" text="IDM">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
